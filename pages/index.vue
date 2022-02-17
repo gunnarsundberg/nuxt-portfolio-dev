@@ -1,10 +1,11 @@
 <template>
-  <div class="wrapper-small md:px-10">
-    <div class="h-96 mt-5">
+  <div class="">
+    <div class="">
       <Hero/>
+      <TechStack/>
     </div>
 
-    <Blogs :posts="posts" title="Featured blogs"/>
+    <Blogs :posts="posts" title="Featured Projects & Stories"/>
     <Projects :projects="projects"/>
   </div>
 </template>

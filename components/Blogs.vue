@@ -63,7 +63,7 @@ export default {
   props: {
     title: {
       type: String,
-      default: 'Blogs',
+      default: 'Projects',
     },
     posts: {
       type: Array,

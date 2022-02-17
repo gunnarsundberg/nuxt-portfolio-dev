@@ -1,14 +1,11 @@
 <template>
-  <div class="flex h-full text-center text-gray-700 dark:text-gray-200 m-8">
-    <div class="m-auto">
-      <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold">
-        <span class="font-normal dark:text-gray-300"> Hey, I am </span>{{ $config.devName}}</h2>
-      <h3 class="font-bold text-primary dark:text-primary text-2xl md:text-3xl lg:text-4xl">a {{ $config.devRole}}</h3>
-      <p class="text-lg lg:text-xl font-semibold">{{ $config.devDescription}}</p>
-
-      <div class="mt-5">
-        <TechStack/>
-      </div>
-    </div>
-  </div>
+  <main class="h-full flex items-center px-6 py-6 md: py-24 lg:py-48 lg:px-48 bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100 relative">  
+    <section class="wrapper-small md:w-9/12 xl:w-8/12">
+      <span class="font-bold uppercase tracking-widest dark:text-black">Hello, my name is</span>
+      <h1 class="py-5 text-3xl lg:text-5xl font-bold dark:text-black">
+        Gunnar<br/>Sundberg
+      </h1>
+      <p class="dark:text-black">and I specialize in finding meaning in data and using it for good.</p>
+    </section>
+  </main>
 </template>
